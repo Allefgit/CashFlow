@@ -21,3 +21,24 @@ Foi utilizado as seguintes **bibliotecas**:
 - **Entity Framework**: Utilização da ORM para maior **desempenho e segurança** ao usar o SQL.
 - **Relatórios**: Geração de relatórios em **PDF e Excel** usando bibliotecas gratuitas.
 - **S.O.L.I.D.**: O projeto foi construido baseado no modelo SOLID, o que ajuda na **leitura e organização** do projeot, além de **otimizar o desempenho**.
+
+## Como usar
+
+Para usar esse projeto, é necessário...
+
+### Requisitos 
+
+- [.NET](https://dotnet.microsoft.com/pt-br/download) instalado no seu sistema operacional;
+- Visual Studio 2022+ ou Visual Studio Code;
+- [MySQL Server](https://www.mysql.com/downloads/).
+
+### Instalação
+
+1. Clone este repositório: 
+    ```sh
+    git clone https://github.com/Allefgit/CashFlow.git
+    ``` 
+
+2. Preencha as informações necessárias no arquivo `appsettings.Development.json`
+3. Execute a API.
+
