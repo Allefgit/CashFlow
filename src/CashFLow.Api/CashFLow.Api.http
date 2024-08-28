@@ -1,0 +1,6 @@
+@CashFLow.Api_HostAddress = http://localhost:5229
+
+GET {{CashFLow.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
