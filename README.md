@@ -14,3 +14,10 @@ Foi utilizado as seguintes **bibliotecas**:
 - <a href="https://learn.microsoft.com/pt-br/ef/core/"> Entity Framework </a>: Foi o **ORM** utilizado, afim de facilitar as **interações** com o **banco de dados**;
 - <a href="https://github.com/ClosedXML/ClosedXML"> ClosedXML </a>: Auxilia na geração de arquivos **XML**;
 - <a href="https://docs.pdfsharp.net/"> PDFsharp-MigraDoc </a>: Auxilia na geração de arquivos **PDF**.
+
+### Features
+
+- **Exceptions Tratament**: Há **tratamento de exceções**, uma vez que é essêncial e indispenável para uma boa API.
+- **Entity Framework**: Utilização da ORM para maior **desempenho e segurança** ao usar o SQL.
+- **Relatórios**: Geração de relatórios em **PDF e Excel** usando bibliotecas gratuitas.
+- **S.O.L.I.D.**: O projeto foi construido baseado no modelo SOLID, o que ajuda na **leitura e organização** do projeot, além de **otimizar o desempenho**.
