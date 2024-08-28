@@ -7,13 +7,13 @@ A API foi desenvolvida em C# usando o frameword **.NET 8**. Como o banco de dado
 o modelo da arquitetura da API é **REST (Representational State Transfer)**, utilizando os métodos HTTP para comunicação, que é gerenciada pela interface do **Swagger**, que otimiza a utilização das rotas.
 
 Foi utilizado as seguintes **bibliotecas**: 
-- <a href="https://automapper.org/"> Swashbuckle </a>: Auxilia no uso e no gerenciamento das **rotas HTTP** através do Swagger.
-- <a href="https://automapper.org/"> AutoMapper </a>: Auxilia no **mapeamento de objetos**.
-- <a href="https://fluentassertions.com/introduction"> Fluent Assertion </a>: Auxilia nos **testes unitários**.
-- <a href="https://docs.fluentvalidation.net/en/latest/"> Fluent Validation </a>: Auxilia na implementação de **regras de validação**.
-- <a href="https://learn.microsoft.com/pt-br/ef/core/"> Entity Framework </a>: Foi o **ORM** utilizado, afim de facilitar as **interações** com o **banco de dados**;
-- <a href="https://github.com/ClosedXML/ClosedXML"> ClosedXML </a>: Auxilia na geração de arquivos **XML**;
-- <a href="https://docs.pdfsharp.net/"> PDFsharp-MigraDoc </a>: Auxilia na geração de arquivos **PDF**.
+- [Swashbuckle][swashbuckle]: Auxilia no uso e no gerenciamento das **rotas HTTP** através do Swagger.
+- [AutoMapper][autoMapper]: Auxilia no **mapeamento de objetos**.
+- [Fluent Assertion][fluent-assertion]: Auxilia nos **testes unitários**.
+- [Fluent Validation][fluent-validation]: Auxilia na implementação de **regras de validação**.
+- [Entity Framework][entity-framework]: Foi o **ORM** utilizado, afim de facilitar as **interações** com o **banco de dados**;
+- [ClosedXML][closedXML]: Auxilia na geração de arquivos **XML**;
+- [PDFsharp-MigraDoc][pdfsharp-migraDoc]: Auxilia na geração de arquivos **PDF**.
 
 ### Features
 
@@ -28,9 +28,9 @@ Para usar esse projeto, é necessário...
 
 ### Requisitos 
 
-- [.NET](https://dotnet.microsoft.com/pt-br/download) instalado no seu sistema operacional;
+- [.NET][dot-net-download-link] instalado no seu sistema operacional;
 - Visual Studio 2022+ ou Visual Studio Code;
-- [MySQL Server](https://www.mysql.com/downloads/).
+- [MySQL Server][sql-download-link].
 
 ### Instalação
 
@@ -42,3 +42,13 @@ Para usar esse projeto, é necessário...
 2. Preencha as informações necessárias no arquivo `appsettings.Development.json`
 3. Execute a API.
 
+<!-- Links -->
+[dot-net-download-link]: https://dotnet.microsoft.com/pt-br/download/
+[sql-download-link]: https://www.mysql.com/downloads/
+[swashbuckle]: https://github.com/domaindrivendev/Swashbuckle.AspNetCore/
+[autoMapper]: https://automapper.org/
+[fluent-assertion]: https://fluentassertions.com/introduction
+[fluent-validation]: https://docs.fluentvalidation.net/en/latest/
+[entity-framework]: https://learn.microsoft.com/pt-br/ef/core/
+[closedXML]: https://github.com/ClosedXML/ClosedXML
+[pdfsharp-migraDoc]: https://docs.pdfsharp.net/
